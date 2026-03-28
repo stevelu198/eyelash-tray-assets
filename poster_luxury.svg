@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="50%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d4a574"/>
+      <stop offset="50%" stop-color="#f5deb3"/>
+      <stop offset="100%" stop-color="#d4a574"/>
+    </linearGradient>
+    <linearGradient id="rose" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8a0bf"/>
+      <stop offset="100%" stop-color="#c77dba"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#d4a574" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur1">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="url(#bg)"/>
+  <circle cx="540" cy="400" r="400" fill="url(#glow)"/>
+
+  <!-- Decorative lines -->
+  <line x1="140" y1="120" x2="940" y2="120" stroke="url(#gold)" stroke-width="0.5" opacity="0.4"/>
+  <line x1="140" y1="960" x2="940" y2="960" stroke="url(#gold)" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Corner decorations -->
+  <path d="M140 120 L180 120 L180 125 L145 125 L145 160 L140 160 Z" fill="url(#gold)" opacity="0.6"/>
+  <path d="M940 120 L900 120 L900 125 L935 125 L935 160 L940 160 Z" fill="url(#gold)" opacity="0.6"/>
+  <path d="M140 960 L180 960 L180 955 L145 955 L145 920 L140 920 Z" fill="url(#gold)" opacity="0.6"/>
+  <path d="M940 960 L900 960 L900 955 L935 955 L935 920 L940 920 Z" fill="url(#gold)" opacity="0.6"/>
+
+  <!-- Product area - stylized eyelash illustration -->
+  <g transform="translate(540, 420)" filter="url(#shadow)">
+    <!-- Tray outline -->
+    <rect x="-200" y="-60" width="400" height="120" rx="15" fill="none" stroke="url(#gold)" stroke-width="1.5" opacity="0.6"/>
+    <!-- Left eyelash cluster -->
+    <g transform="translate(-100, 0)">
+      <path d="M-40 20 Q-35 -30 -25 -55" stroke="#1a1a1a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <path d="M-30 20 Q-28 -40 -20 -65" stroke="#1a1a1a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <path d="M-20 20 Q-15 -45 -5 -70" stroke="#1a1a1a" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+      <path d="M-10 20 Q-2 -50 10 -75" stroke="#1a1a1a" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+      <path d="M0 20 Q10 -50 25 -72" stroke="#1a1a1a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <path d="M10 20 Q22 -45 38 -65" stroke="#1a1a1a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <path d="M20 20 Q32 -35 45 -55" stroke="#1a1a1a" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      <path d="M30 20 Q38 -25 50 -40" stroke="#1a1a1a" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </g>
+    <!-- Right eyelash cluster -->
+    <g transform="translate(100, 0)">
+      <path d="M-30 20 Q-32 -25 -45 -40" stroke="#1a1a1a" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M-20 20 Q-22 -35 -38 -55" stroke="#1a1a1a" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      <path d="M-10 20 Q-12 -45 -30 -65" stroke="#1a1a1a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <path d="M0 20 Q-2 -50 -15 -72" stroke="#1a1a1a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <path d="M10 20 Q8 -50 -5 -75" stroke="#1a1a1a" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+      <path d="M20 20 Q18 -45 5 -70" stroke="#1a1a1a" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+      <path d="M30 20 Q30 -40 20 -65" stroke="#1a1a1a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <path d="M40 20 Q38 -30 32 -55" stroke="#1a1a1a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    </g>
+    <!-- Tray base -->
+    <rect x="-180" y="15" width="360" height="30" rx="8" fill="#2a2a3a" opacity="0.8"/>
+    <rect x="-170" y="18" width="150" height="24" rx="6" fill="#3a3a4a" opacity="0.5"/>
+    <rect x="20" y="18" width="150" height="24" rx="6" fill="#3a3a4a" opacity="0.5"/>
+  </g>
+
+  <!-- Sparkle decorations -->
+  <circle cx="280" cy="300" r="2" fill="#f5deb3" opacity="0.7"/>
+  <circle cx="800" cy="350" r="1.5" fill="#f5deb3" opacity="0.5"/>
+  <circle cx="200" cy="500" r="1" fill="#e8a0bf" opacity="0.6"/>
+  <circle cx="850" cy="250" r="2" fill="#f5deb3" opacity="0.4"/>
+  <circle cx="350" cy="200" r="1.5" fill="#e8a0bf" opacity="0.5"/>
+  <circle cx="720" cy="550" r="1" fill="#f5deb3" opacity="0.6"/>
+
+  <!-- Diamond shapes -->
+  <polygon points="300,580 305,570 310,580 305,590" fill="url(#gold)" opacity="0.3"/>
+  <polygon points="780,280 785,270 790,280 785,290" fill="url(#gold)" opacity="0.3"/>
+
+  <!-- Brand name -->
+  <text x="540" y="650" font-family="'Georgia', 'Times New Roman', serif" font-size="56" font-weight="400" fill="url(#gold)" text-anchor="middle" letter-spacing="18">LASH LUXE</text>
+
+  <!-- Tagline -->
+  <text x="540" y="700" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="16" fill="#8a8a9a" text-anchor="middle" letter-spacing="6">PREMIUM FALSE EYELASH COLLECTION</text>
+
+  <!-- Divider -->
+  <line x1="440" y1="730" x2="640" y2="730" stroke="url(#gold)" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- Features -->
+  <text x="540" y="780" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="15" fill="#c0c0c8" text-anchor="middle" letter-spacing="3">3D MINK EFFECT  ·  CRUELTY FREE  ·  REUSABLE 25X</text>
+
+  <!-- Bottom accent -->
+  <text x="540" y="870" font-family="'Georgia', 'Times New Roman', serif" font-size="20" fill="url(#rose)" text-anchor="middle" letter-spacing="8">浓密卷翘 · 轻盈自然</text>
+
+  <!-- Small product info -->
+  <text x="540" y="920" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="12" fill="#5a5a6a" text-anchor="middle" letter-spacing="2">HANDCRAFTED WITH LOVE</text>
+
+  <!-- Subtle border -->
+  <rect x="30" y="30" width="1020" height="1020" rx="0" fill="none" stroke="#2a2a3a" stroke-width="0.5"/>
+</svg>
