@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#faf8f5"/>
+      <stop offset="100%" stop-color="#f0ece6"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c9a87c"/>
+      <stop offset="100%" stop-color="#e8c9a0"/>
+    </linearGradient>
+    <linearGradient id="darkAccent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2c2c2c"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <filter id="cardShadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="20" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="#e8e4de"/>
+
+  <!-- Main card -->
+  <rect x="60" y="60" width="960" height="960" rx="24" fill="url(#cardBg)" filter="url(#cardShadow)"/>
+
+  <!-- Top ribbon -->
+  <rect x="60" y="60" width="960" height="80" rx="24" fill="url(#darkAccent)"/>
+  <rect x="60" y="116" width="960" height="24" fill="url(#darkAccent)"/>
+  <text x="540" y="112" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="18" fill="#c9a87c" text-anchor="middle" letter-spacing="8">✦ BEST SELLER ✦</text>
+
+  <!-- Product image area placeholder -->
+  <rect x="140" y="200" width="800" height="380" rx="16" fill="#f5f0ea"/>
+  <!-- Stylized eyelash illustration in product area -->
+  <g transform="translate(540, 390)">
+    <!-- Tray -->
+    <rect x="-250" y="-50" width="500" height="100" rx="20" fill="#fff" stroke="#e0d8ce" stroke-width="1"/>
+    <!-- Left lash group -->
+    <g transform="translate(-125, 0)">
+      <path d="M-50 15 Q-42 -25 -30 -48" stroke="#1a1a1a" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M-35 15 Q-30 -35 -18 -58" stroke="#1a1a1a" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M-20 15 Q-12 -42 0 -62" stroke="#1a1a1a" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      <path d="M-5 15 Q5 -45 18 -65" stroke="#1a1a1a" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      <path d="M10 15 Q20 -40 35 -58" stroke="#1a1a1a" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M25 15 Q32 -30 45 -45" stroke="#1a1a1a" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      <path d="M40 15 Q45 -20 55 -32" stroke="#1a1a1a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    </g>
+    <!-- Right lash group -->
+    <g transform="translate(125, 0)">
+      <path d="M-40 15 Q-45 -20 -55 -32" stroke="#1a1a1a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+      <path d="M-25 15 Q-32 -30 -45 -45" stroke="#1a1a1a" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+      <path d="M-10 15 Q-20 -40 -35 -58" stroke="#1a1a1a" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M5 15 Q-5 -45 -18 -65" stroke="#1a1a1a" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      <path d="M20 15 Q12 -42 0 -62" stroke="#1a1a1a" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      <path d="M35 15 Q30 -35 18 -58" stroke="#1a1a1a" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M50 15 Q42 -25 30 -48" stroke="#1a1a1a" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Product title -->
+  <text x="540" y="640" font-family="'Georgia', 'Times New Roman', serif" font-size="38" font-weight="700" fill="#1a1a1a" text-anchor="middle">浓密自然假睫毛</text>
+  <text x="540" y="680" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="16" fill="#8a8a8a" text-anchor="middle" letter-spacing="3">3D MINK EFFECT LASHES</text>
+
+  <!-- Features row -->
+  <g transform="translate(540, 740)">
+    <!-- Feature 1 -->
+    <rect x="-420" y="-25" width="240" height="50" rx="12" fill="#f8f4ee"/>
+    <text x="-300" y="-5" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="600">浓密卷翘</text>
+    <text x="-300" y="14" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="10" fill="#999" text-anchor="middle">VOLUME CURL</text>
+
+    <!-- Feature 2 -->
+    <rect x="-160" y="-25" width="240" height="50" rx="12" fill="#f8f4ee"/>
+    <text x="-40" y="-5" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="600">轻盈透气</text>
+    <text x="-40" y="14" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="10" fill="#999" text-anchor="middle">LIGHTWEIGHT</text>
+
+    <!-- Feature 3 -->
+    <rect x="100" y="-25" width="240" height="50" rx="12" fill="#f8f4ee"/>
+    <text x="220" y="-5" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="600">可重复使用</text>
+    <text x="220" y="14" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="10" fill="#999" text-anchor="middle">REUSABLE 25X</text>
+  </g>
+
+  <!-- Price area -->
+  <rect x="300" y="810" width="480" height="70" rx="35" fill="url(#darkAccent)"/>
+  <text x="540" y="854" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="28" fill="#c9a87c" text-anchor="middle" font-weight="300" letter-spacing="4">¥ 29.90 <tspan font-size="16" fill="#888" text-decoration="line-through">¥ 59.90</tspan></text>
+
+  <!-- Bottom info -->
+  <text x="540" y="930" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="12" fill="#aaa" text-anchor="middle" letter-spacing="2">下单即发 · 顺丰包邮 · 7天无理由退换</text>
+
+  <!-- Corner badge -->
+  <circle cx="900" cy="200" r="50" fill="#c0392b"/>
+  <text x="900" y="194" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="700">限时</text>
+  <text x="900" y="214" font-family="'Helvetica Neue', 'Arial', sans-serif" font-size="14" fill="#fff" text-anchor="middle" font-weight="700">特价</text>
+</svg>
